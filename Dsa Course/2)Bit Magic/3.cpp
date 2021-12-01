@@ -46,17 +46,21 @@ void intialize(){
 }
 
 int ts(int n){
-    int res = table[n & Oxff];
+    int res = table[n & 0xff];
     n = n>>8;
-    res = res + table[n & Oxff];
+    res = res + table[n & 0xff];
     n = n>>8;
-    res = res + table[n & Oxff];
+    res = res + table[n & 0xff];
     n = n>>8;
-    res = res + table[n & Oxff];
+    res = res + table[n & 0 xff];
     return res;
 
 }
+//time complexity of this method is -- theta(1)
+
+
 main(){
     cout<<fs(5)<<endl;
     cout<<ss(5)<<endl;
+    cout<<ts(5)<<endl;
 }
