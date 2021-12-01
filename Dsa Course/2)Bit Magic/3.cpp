@@ -32,8 +32,31 @@ int ss(int n){
     }
     return res;
 }
+// Time complexity is just -- Theta(no. of set bits)
 
+// Third solution - Lookup Table Method for 32 bit numbers
+
+int table[256];
+
+void intialize(){
+    table[0] = 0;
+    for(int i=1 ;i<256;i++){
+        table[i]=(i&1) + table[i/2];
+    }
+}
+
+int ts(int n){
+    int res = table[n & Oxff];
+    n = n>>8;
+    res = res + table[n & Oxff];
+    n = n>>8;
+    res = res + table[n & Oxff];
+    n = n>>8;
+    res = res + table[n & Oxff];
+    return res;
+
+}
 main(){
-    cout<<fs(5);
-    cout<<ss(5);
+    cout<<fs(5)<<endl;
+    cout<<ss(5)<<endl;
 }
