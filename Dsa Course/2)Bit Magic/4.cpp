@@ -14,6 +14,13 @@ bool fs(int n){
     return true;
 }
 
+// solution 2 
+bool ss(int n){
+    if(n==0)
+    return false;
+    return((n & (n-1))==0);
+}
 int main(){
     cout<<fs(16);
+    cout<<ss(16);
 }
