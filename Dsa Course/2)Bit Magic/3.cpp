@@ -19,7 +19,21 @@ int fs(int n){
     }
     return res;
 }
+// Time complexity of the first solution is--
+// theta(Total Bits in n)
+
+// Second solution -BRIAN'S KERNINGAM'S ALGO
+// It will turn off last bit "1" 
+int ss(int n){
+    int res=0;
+    while(n>0){
+        n=(n&(n-1));
+        res++;
+    }
+    return res;
+}
 
 main(){
     cout<<fs(5);
+    cout<<ss(5);
 }
