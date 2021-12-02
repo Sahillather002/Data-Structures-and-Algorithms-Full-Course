@@ -2,12 +2,13 @@
 #include<iostream>
 using namespace std;
 
-int ss(bool arr[],int n){
+int ss(int arr[],int n){
     int res=0;
     for(int i=0;i<n;i++)
     {
+        int curr = 0;
         if(arr[i]=0)
-        curr=0;
+        int curr=0;
         else
         {
             curr++;

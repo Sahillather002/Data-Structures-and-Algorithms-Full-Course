@@ -5,7 +5,7 @@ using namespace std;
 // solution 1 -- naive solution
 // complexity -- O(n^2)
 
-int fs(arr[], int n)
+int fs(int arr[], int n)
 {
     int res = 0;
     for (int i = 0; i < n; i++)
