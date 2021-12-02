@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-// solution 1
+// solution 1 -- naive solution
 
 int fs(int price[],int start , int end)
 {
