@@ -3,7 +3,6 @@
 #include <algorithm>
 using namespace std;
 
-// Utility function to print contents of an array
 void print(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
@@ -12,7 +11,6 @@ void print(int arr[], int n)
     }
 }
 
-// Utility function to reverse elements of an array
 void reverse(int arr[], int n)
 {
     for (int low = 0, high = n - 1; low < high; low++, high--)
