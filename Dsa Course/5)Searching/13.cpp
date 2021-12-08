@@ -11,6 +11,7 @@ where --
 a1 and a2 are array
 i1 and i2 are begning element of two array
 */
+// time complexity -- O(log(n))
 int getMed(int a1[], int a2[], int n1, int n2)
 {
     int begin1 = 0, end1= n1;
