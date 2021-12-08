@@ -10,8 +10,8 @@ int fs(int arr[], int n)
         int count = 1;
         for (int j = i + 1; j < n; j++)
             if (arr[i] == arr[j])
-                cout++;
-        if (cout > n / 2)
+                count++;
+        if (count > n / 2)
             return i;
     }
 
@@ -21,4 +21,5 @@ int fs(int arr[], int n)
 int main()
 {
     int arr[]={8,7,6,8,6,6,6,6};
+    cout<<fs(arr,8);
 }
