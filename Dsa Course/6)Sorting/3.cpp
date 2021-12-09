@@ -25,3 +25,5 @@ int main()
     for (auto i : arr)
         cout << i.y << " " << i.x << endl;
 }
+
+// it uses quick sort , heap sort , innsertion sort combination
