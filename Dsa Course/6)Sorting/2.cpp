@@ -11,7 +11,7 @@ int main()
     for (int x : v)
         cout << x << " ";
     cout << endl;
-   // sort(v.begin(), v.end(), greater<int>);
+    sort(v.begin(), v.end(), greater<int>);
     for (int x : v)
         cout << x << " ";
 }
