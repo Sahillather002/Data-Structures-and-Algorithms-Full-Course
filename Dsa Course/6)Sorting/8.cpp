@@ -44,10 +44,12 @@ int findSmallest(int myarray[], int i)
 /*
 Introduction
 Selection sort is quite a straightforward sorting technique as the technique only involves finding the smallest element in every pass and placing it in the correct position.
-
 Selection sort works efficiently when the list to be sorted is of small size but its performance is affected badly as the list to be sorted grows in size.
-
 Hence we can say that selection sort is not advisable for larger lists of data.
+
+The complexity of Selection Sort Technique
+Time Complexity: O(n2)
+Space Complexity: O(1)
 
 General Algorithm
 The General Algorithm for selection sort is given below:
@@ -91,3 +93,5 @@ begin
         end if
     end for
 end procedure
+
+*/
