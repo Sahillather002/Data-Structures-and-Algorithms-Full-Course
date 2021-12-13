@@ -21,3 +21,10 @@ int main()
     for(int i=0;i<6;i++)
     cout<<arr[i]<<" ";
 }
+
+/* selection sort is not stable
+as it will not reserve the position 
+of the two or more different elements
+
+Time complexity--
+Theta(n^2)
