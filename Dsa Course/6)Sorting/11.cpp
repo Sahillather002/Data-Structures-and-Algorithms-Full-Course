@@ -8,6 +8,7 @@
   But , in general for arrays , quicksort outperforms
 */
 #include <iostream>
+#include <algorithm>
 using namespace std;
 // merging two sorted array
 
