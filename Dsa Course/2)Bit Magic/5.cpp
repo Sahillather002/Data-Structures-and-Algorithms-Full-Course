@@ -32,5 +32,5 @@ int findOdd(int arr[], int n)
 main()
 {
     int arr[] = {4, 3, 4, 4, 4, 5, 5};
-    cout << findOdd(arr[7], 7);
+    cout << findOdd(arr, 7);
 }

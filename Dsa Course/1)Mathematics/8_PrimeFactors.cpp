@@ -28,5 +28,5 @@ void factor(int n){
 }
 
 int main(){
-    cout<<factor(10);
+    factor(10);
 }

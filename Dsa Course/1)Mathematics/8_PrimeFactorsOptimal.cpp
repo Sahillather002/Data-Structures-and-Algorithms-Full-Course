@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int factor(int n){
+int factor(int n)
+{
     if(n<=1)
     return;
     for(int i=2;i*i<=n;i++){
@@ -11,9 +12,11 @@ int factor(int n){
         }
     }
     if(n>1)
+    {
     return n;
+    }
 }
 
 int main(){
-    cout<<factor(10);
+    factor(10);
 }
