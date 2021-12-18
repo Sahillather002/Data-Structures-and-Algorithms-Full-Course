@@ -18,4 +18,46 @@ void merge(int a[],int low,int mid, int high)
     {
         right[i]=a[n1+i];
     }
+
+    // merging the array with sorting
+    int i=0,j=0,k=0;
+    while(i<n1 && j<n2)
+    {
+        if(left[i]<=right[j])
+        {
+            a[k] = left[i];
+            i++;
+            k++;
+
+        }
+        else 
+        {
+            a[k]=right[i];
+            k++;
+            j++;
+        }
+        // updating the values
+        while(i<n1)
+        {
+            a[k]=left[i];
+            i++;
+            k++;
+        }
+        while(j<n2)
+        {
+            a[k]=right[j];
+            j++;
+            k++;
+        }
+    }
+}
+
+int main()
+{
+    int a[]={10,20,40,20,30,40,60,50,80};
+    merge(a,0,5,8);
+    for(int i=0;i<8;i++)
+    {
+        cout<<a[i]<<" ";
+    }
 }
