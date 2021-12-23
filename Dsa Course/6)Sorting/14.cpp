@@ -60,3 +60,13 @@ void mergeSort(int arr[],int l,int r)
         merge(arr,l,m,r);
     }
 }
+
+int main()
+{
+    int arr[]={10,5,30,15,7};
+    mergeSort(arr,0,4);
+    for(int i=0;i<5;i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+}
