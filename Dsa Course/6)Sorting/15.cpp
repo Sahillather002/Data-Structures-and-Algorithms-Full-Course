@@ -18,7 +18,7 @@ void fs(int a[],int b[],int m,int n)
         }
     }
 }
-
+// complexity -- O(n*m)
 int main()
 {
     int a[]={1,20,20,40,60};
