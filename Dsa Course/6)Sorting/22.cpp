@@ -17,3 +17,9 @@ int lPartition(int arr[],int l,int h)
     swap(arr[i+1],arr[h]);
     return(i+1);
 }
+
+int main()
+{
+    int arr[]={10,80,30,90,40,50,70};
+    cout<<lPartition(arr,0,6);
+}
