@@ -19,5 +19,7 @@ int partition(int arr[], int l,int h){
     swap(arr[i],arr[j]);
 }
 int main(){
-    
+    int arr[]={5,3,8,4,2,7,1,10};
+    partition(arr,0,7);
+    cout<<arr[0];
 }
