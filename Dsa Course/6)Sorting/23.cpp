@@ -1,4 +1,5 @@
 // Hoare's Partition
+//here pivot is not at correct position
 #include <iostream>
 using namespace std;
 int partition(int arr[], int l, int h)
