@@ -5,8 +5,8 @@ using namespace std;
 int lPartition(int arr[],int l,int h)
 {
     int pivot = arr[h];
-    int i = low-1;
-    for(int j=low ; j<=high-1; j++)
+    int i = l-1;
+    for(int j=l ; j<=h-1; j++)
     {
         if(arr[j] < pivot)
         {
