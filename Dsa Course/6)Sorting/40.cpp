@@ -40,3 +40,10 @@ int main()
         cout<<arr[i]<<" ";
     }
 }
+
+/* Important points
+- it is not a comparison base algo
+- it take theta(n+k)time
+- it take theta(n+k)aux space
+- it is stable
+- it is used as a subroutine in radix sort
