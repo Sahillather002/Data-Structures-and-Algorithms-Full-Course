@@ -50,3 +50,7 @@ int main()
     for (int i = 0; i < 5; i++)
         cout << arr[i] << endl;
 }
+
+// it is improvement of selection sort
+// it is best sorting algo with swaps
+// that is nlogn
