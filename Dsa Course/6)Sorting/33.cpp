@@ -26,10 +26,13 @@ void sort(int arr[],int n)
     for(int j=0;j<n;j++)
     arr[j]=temp[j];
 }
+// it required 4 traversals
+// Time : O(n)/ theta of n
+// Aux Space : O(n)/theta of n
 int main()
 {
     int arr[]={0,1,1,2,0,1};
     sort(arr,6);
     for(int i=0;i<6;i++)
-    cout<<arr[i];
+    cout<<arr[i]<<endl;
 }
