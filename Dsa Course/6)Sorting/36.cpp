@@ -24,5 +24,7 @@ int maxGuest(int arr[],int dep[],int n)
 }
 int main()
 {
-    int arr[]={};
+    int arr[]={900,600,700};
+    int dep[]={1000,800,730};
+    maxGuest(arr,dep,3);
 }
