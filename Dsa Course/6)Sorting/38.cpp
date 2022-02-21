@@ -40,6 +40,13 @@ void heapSort(int arr[],int n)
     for(int i=n-1;i>=1;i--)
     {
         swap(arr[0],arr[i]);
-        heapify(arr,i,0);
+        maxHeapify(arr,i,0);
     }
+}
+int main()
+{
+    int arr[]={10,15,50,4,20};
+    heapSort(arr,5);
+    for(int i=0;i<5;i++)
+    cout<<arr[i]<<endl;
 }
