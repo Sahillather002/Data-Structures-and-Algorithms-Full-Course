@@ -5,6 +5,11 @@ complexity=O(n+k)
 to sort n element in range from
 o to k-1;
 It is useful only when k is linear
+
+Problem -
+it can't be used as a general purpose
+sorting algo for obljects with multiple
+members like array of sutents marks
 */
 #include<iostream>
 using namespace std;
@@ -35,3 +40,4 @@ int main()
     for(int i=0;i<6;i++)
     cout<<arr[i]<<" ";
 }
+
