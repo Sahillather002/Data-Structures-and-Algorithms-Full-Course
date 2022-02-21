@@ -1,9 +1,10 @@
 // counting sort
 // better approach
+// general purpose implementation
 #include <iostream>
 using namespace std;
 
-void countSort(arr, n, k)
+void countSort(int arr[],int n,int k)
 {
     int count[k];
     for (int i = 0; i < k; i++)
@@ -28,5 +29,14 @@ void countSort(arr, n, k)
     for (int i = 0; i < n; i++)
     {
         arr[i] = output[i];
+    }
+}
+int main()
+{
+    int arr[]={1,4,4,1,0,1};
+    countSort(arr,6,5);
+    for(int i=0;i<6;i++)
+    {
+        cout<<arr[i]<<" ";
     }
 }
