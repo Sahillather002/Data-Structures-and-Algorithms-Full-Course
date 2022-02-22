@@ -1,0 +1,13 @@
+Introducing Hash Function
+- it should generate same output for 
+a particular input
+- i.e. it should always map a large key to 
+same small key
+- it should generate value from 0 to m-1
+- it should be fast , 
+O(1) for integers 
+and O(len) for string 
+- it should unifromly distribute large
+keys into hash table slots
+
+Example of hash function --
