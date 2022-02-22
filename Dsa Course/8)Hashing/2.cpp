@@ -41,5 +41,5 @@ struct myHash
 int main()
 {
     int arr[]={49,50,51,63,-1,-1,69};
-    
+    myHash.search(50);
 }
