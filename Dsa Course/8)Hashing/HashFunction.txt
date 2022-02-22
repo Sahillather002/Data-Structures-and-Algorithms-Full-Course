@@ -11,3 +11,11 @@ and O(len) for string
 keys into hash table slots
 
 Example of hash function --
+- for integers
+h(large_key) = large_key % m
+m = any integer
+
+- for strings , weighted sum
+str[] = "abcd"
+
+str[0] * x^0 + str[1]*x^1 + str[2]*x^2 + str[3]*x^4
