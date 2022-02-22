@@ -14,8 +14,15 @@ Example of hash function --
 - for integers
 h(large_key) = large_key % m
 m = any integer
+m = is chosen as prime no close to no of data
+m = is bad which is close to powers of 2 or 10
+or we avoid having powers 
 
 - for strings , weighted sum
 str[] = "abcd"
 
-str[0] * x^0 + str[1]*x^1 + str[2]*x^2 + str[3]*x^4
+(str[0] * x^0 + str[1]*x^1 + str[2]*x^2 + str[3]*x^4)%m
+
+- Universal Hashing
+we randomly select hash function
+to get O(1)
