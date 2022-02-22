@@ -53,10 +53,29 @@ struct myHash
             return true;
         }
     }
+
+    bool erase(int key)
+    {
+        int h = hash(key);
+        int i = h;
+        while(arr[i]!=-1)
+        {
+            if(arr[i]==key)
+            {
+                arr[i]=-2;
+                return true;
+            }
+            i = (i+1)%cap;
+            if(i==h)
+            return false;
+        }
+        return false;
+    }
 }
 
-int
+
 main()
 {
     int arr[] = {49, 50, 51, 63, -1, -1, 69};
+
 }
