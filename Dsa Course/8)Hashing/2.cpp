@@ -20,4 +20,26 @@ struct myHash
     {
         return key % cap;
     }
+
+    // defining search function
+    bool search(int key)
+    {
+        int h = hash(key);
+        int i = h;
+        while(arr[i]!=-1)
+        {
+            if(arr[i]==key)
+            return true;
+            i = (i+1)%cap;
+            if(i==h)
+            return false;
+        }
+        return false;
+    }
+}
+
+int main()
+{
+    int arr[]={49,50,51,63,-1,-1,69};
+    
 }
