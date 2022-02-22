@@ -1,0 +1,24 @@
+// Collision Handling
+- if we know keys in advance , then
+we can have perfect Hashing
+
+- if we do not know keys , then we 
+use one of the following
+ --- chaining
+ --- open addressing
+     --- linear probling
+     --- qudaratic probling
+     --- double Hashing
+
+- Concept of BIRTHDAY PARADOX
+
+-- if there are 23 people in a room then
+there is 50% probability that they have
+birthday on same date 
+
+-- if there are 70 people in a room then 
+there is 99.9% probability that they have
+birthday on same date
+
+-- so collision is serious if we don't 
+know our keys in before
