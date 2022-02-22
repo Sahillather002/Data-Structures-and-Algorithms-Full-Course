@@ -1,0 +1,26 @@
+Hashing is best in 
+- Search
+- Insert 
+- and Delete 
+Which take O(1) time complexity 
+in average.
+
+Hashing is not useful for :
+- finding closest value
+- keeping sorted data
+-- for above 2 we preferably useful
+AVL TREE OR RED BLACK TREE
+- prefix searching
+-- it is done by 
+TRIE DATA STRUCTURE
+
+# Applications of Hashing
+(it is second most data structure after array)
+1. Dictionaries implementation
+2. Data base Indexing
+3. Cryptography
+4. Caches
+5. Symbol Tables in Compilers / Interpreters
+6. Routers
+7. Getting data from databases
+8. And many more
