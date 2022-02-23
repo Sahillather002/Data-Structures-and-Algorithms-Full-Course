@@ -16,6 +16,7 @@ int main()
         cout << (*it) << " ";
         
     }
+    // result any permutation of these numbers
     cout << endl;
     cout << s.size() << " ";
     s.clear();
