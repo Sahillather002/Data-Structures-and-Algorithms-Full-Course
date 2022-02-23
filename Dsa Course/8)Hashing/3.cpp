@@ -12,5 +12,6 @@ int main()
 
     for(int x : s)
     cout<<x<<" ";
+    // result can be any permutation of these numbers
     return 0;
 }
